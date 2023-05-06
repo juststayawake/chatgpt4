@@ -7,6 +7,8 @@ import Charge from './Charge'
 import type { User } from '@/types'
 import type { Accessor, Setter } from 'solid-js'
 
+<script defer src="/_vercel/insights/script.js"></script>
+
 interface Props {
   setIsLogin: Setter<boolean>
   isLogin: Accessor<boolean>
